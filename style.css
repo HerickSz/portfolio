@@ -158,7 +158,7 @@ h3.title {
 }
 
 .section {
-  padding: calc(4rem + var(--header-height)) 0;
+  padding: calc(5rem + var(--header-height)) 0;
 }
 
 .mapa {
