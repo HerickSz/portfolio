@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <!-- PAGE INFO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herick Souza</title>
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+  <link rel="icon" href="./assets/fotos/profile.jpg" type="icon/png" sizes="16x16">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <a class="logo" href="#home"><span>Herick Souza</span>
+      </a>
+      <button style="position: fixed; left: 30%;" alt=" Modo Escuro"><img
+          src="https://cdn-icons-png.flaticon.com/512/4482/4482094.png" alt=" Modo Escuro"
+          onclick="myFunction()"></button>
+      <script>
+        function myFunction() {
+          var element = document.body;
+
+          if (element.classList.toggle("dark-mode") == true) {
+
+            return swal
+              ({
+                title: "HerickDev",
+                icon: "success",
+                text: "DarkMode Ativado"
+              });
+          }
+          else return swal
+            ({
+              title: "HerickDev",
+              icon: "success",
+              text: "DarkMode Desativado"
+            });
+        }
+      </script>
+
+      <!-- menu -->
+
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Projetos</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+
+
+  </header>
+
+  <main>
+    <!-- HOME -->
+
+
+    <!-- Função Dark Mode backblack -->
+    <section class="section" id="home">
+      <div class="container grid">
+
+
+
+        <div class="image">
+          <img src="./assets/fotos/undraw_pair_programming_re_or4x.svg" alt="Logo" />
+        </div>
+        <div class="text">
+          <h2 class="title">Hi! I'm Herick</h2>
+          <p>
+            Sou Desenvolvedor, Suporte e Técnico de T.i
+          </p>
+          <a class="button" href="#about">👀</a>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img src="./assets/fotos/profile.jpg" alt="atendimento" />
+        </div>
+        <div class="text">
+          <h2 class="title">Criei esse Portifólio para que saibam um pouco mais de mim...</h2>
+          <p>
+            Então vamos lá...
+            Bom, sempre gostei de informática, desde 2019 estou na área e busco aprender cada vez mais...
+          </p>
+          <h2>2019 -
+          </h2>
+          <p>Trabalhei como <span style="color: hsl(120, 97%, 34%);"> freelancer </span>, prestava serviços de
+            informática, tais como Montagens e Manutenções de
+            Computadores, instalações de Softwares em geral.</p>
+          <h2>2020 -
+          </h2>
+          <p>Ao me formar no Ensino Médio, comecei a cursar Superior em <span style="color: hsl(120, 97%, 34%);">
+              Análise e Desenvolvimento de Sistemas </span> na
+            Universidade Santa Cecília -
+            Unisanta.
+            Ao mesmo tempo, fiz também Curso Técnico em Informática e Capacitação.
+          </p>
+          <h2>2021 -
+          </h2>
+          <p>Além dos cursos, mantia focado em procurar ajudar as pessoas com meu conhecimento, anos atrás eu fazia
+            Artes como <span style="color: hsl(120, 97%, 34%);"> Design Gráfico </span>, Sites, ajuda e mentorias à
+            computação e serviços de informática.
+          </p>
+          <h2>2022 -
+          </h2>
+          <p>Trabalhei na Prefeitura Municipal de Manhuaçu - MG, como estágiario e posteriormente como <span
+              style="color: hsl(120, 97%, 34%);">Técnico em Informática </span>, desenvolvi
+            habilidades de infraestrutura e configurações de rede, manutenções e instalações de impressoras.
+          </p>
+          <h2>2023 - Atual
+          </h2>
+          <p>Após terminar meus cursos, tive a oportunidade de estar trabalhando na </br><span><a
+                style="color: hsl(120, 97%, 34%); text-decoration: underline;" href="atualsistemas.com.br"> ATUAL
+                SISTEMAS </a></span> soluções e
+            gestão
+            de T.I para empresas, onde trabalho atualmente como Suporte Técnico de Softwares e Atendimento ao Cliente,
+          </p>
+          <a class="button" href="#about">Meu CV</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Projetos</h2>
+          <p class="subtitle">
+            Aqui vai alguns projetos e experiências que já desenvolvi.
+          </p>
+
+        </header>
+
+        <div class="cards grid">
+          <div class="card">
+            <img src="/assets/fotos/monitoraovivo.jpg" class="icons" />
+            <h3 class="title">Monitoramento de Enchentes</h3>
+            <p class="subtitle">
+              Projeto feito com o intuito de monitorar as enchentes na Cidade e Distritos.
+            </p>
+            <a class="button" href="#about">Ver mais detalhes</a>
+          </div>
+          <div class="card">
+            <img src="/assets/fotos/monitoraovivo.jpg" class="icons" />
+            <h3 class="title">Monitoramento de Enchentes</h3>
+            <p class="subtitle">
+              Projeto feito com o intuito de monitorar as enchentes na Cidade e Distritos.
+            </p>
+            <a class="button" href="#about">Ver mais detalhes</a>
+          </div>
+          <div class="card">
+            <img src="/assets/fotos/monitoraovivo.jpg" class="icons" />
+            <h3 class="title">Monitoramento de Enchentes</h3>
+            <p class="subtitle">
+              Projeto feito com o intuito de monitorar as enchentes na Cidade e Distritos.
+            </p>
+            <a class="button" href="#about">Ver mais detalhes</a>
+          </div>
+          <div class="card">
+            <img src="/assets/fotos/monitoraovivo.jpg" class="icons" />
+            <h3 class="title">Monitoramento de Enchentes</h3>
+            <p class="subtitle">
+              Projeto feito com o intuito de monitorar as enchentes na Cidade e Distritos.
+            </p>
+            <a class="button" href="#about">Ver mais detalhes</a>
+          </div>
+
+          <div class="card">
+            <img src="/assets/fotos/monitoraovivo.jpg" class="icons" />
+            <h3 class="title">Monitoramento de Enchentes</h3>
+            <p class="subtitle">
+              Projeto feito com o intuito de monitorar as enchentes na Cidade e Distritos.
+            </p>
+            <a class="button" href="#about">Ver mais detalhes</a>
+          </div>
+          <div class="card">
+            <img src="/assets/fotos/monitoraovivo.jpg" class="icons" />
+            <h3 class="title">Monitoramento de Enchentes</h3>
+            <p class="subtitle">
+              Projeto feito com o intuito de monitorar as enchentes na Cidade e Distritos.
+            </p>
+            <a class="button" href="#about">Ver mais detalhes</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- Paginação -->
+    <div class="swiper-pagination"></div>
+    </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Contatos</h2>
+          <p>
+            Clicando você pode conferir meus contatos, github, instagram...
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=5533984197194" class="button" target="_blank"><i
+              class="icon-whatsapp"></i> Entrar em contato</a>
+        </div>
+
+        <div class="links">
+          <ul class="grid">
+            <li><i class="icon-phone"></i> <a href="tel:+5533984197194"> (33) 98419-7194</a></li>
+            <li><i class="icon-map-pin"></i> Manhuaçu MG</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+  <!--<section>
+    <section class="mapa" id="">
+      <div class="fotos">
+        <h2 style="text-align: center;" class="title">Fotos</h2>
+        <div class="slider-principal">
+          <img src="./assets/fotos/feed1.jpg" />
+          <img src="./assets/fotos/feed2.jpg" />
+          <img src="./assets/fotos/feed3.jpg" />
+          <img src="./assets/fotos/feed4.jpg" />
+          <img src="./assets/fotos/feed5.jpg" />
+        </div>
+        <div class="divider-1"></div>
+
+      </div>
+      </div>
+    </section>-->
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">Herick Souza ⠀</a>
+
+      </div>
+
+      <div class="social grid">
+        <p style="color: #fff;">Mídias Sociais:</p>
+        <a href="https://www.instagram.com/alfaodontologiamanhuacu/" target="_blank">
+          <i style="color: hsl(120, 97%, 34%);" class="icon-instagram"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5533984197194" target="_blank">
+          <svg class="svgwpp" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="hsl(120, 97%, 34%)"
+            class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg></a>
+      </div>
+    </div>
+  </footer>
+  <div class="dev" style="background: var(--base-color);">
+    <p class="dev" style="top:100%; color: #fff; margin: 0 auto; font-size: 12px; text-align: center;">HerickDev ©2023
+      - Todos os direitos reservados.</p>
+  </div>
+
+  <a href="#home" class="back-to-top"><i style="color: hsl(120, 97%, 34%);" class="icon-arrow-up"></i></a>
+
+  <!-- swiper - deslizar -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal - revelar com scroll-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.9054286502214!2d-42.030741723819375!3d-20.262756548758546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb03c907812fbb%3A0xc1508199696bd20d!2sAlfa%20Odontologia!5e0!3m2!1spt-BR!2sbr!4v1682474612695!5m2!1spt-BR!2sbr"
+            width="600" height="450" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>-->
+  <script type="text/javascript" src="CodejqueryMin.js"></script>
+  <script type="text/javascript" src="jqueryMigrate.js"></script>
+  <script type="text/javascript" src="slick.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
