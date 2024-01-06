@@ -18,6 +18,8 @@ img {
   height: auto;
 }
 
+
+
 .dente {
   width: 25px;
   height: 25px;
@@ -63,10 +65,16 @@ body {
 button {
   border: none;
   background-color: transparent;
+  transition: 0.1s ease-in;
 }
 
 button img {
-  width: 30px;
+  width: 40px;
+}
+
+button:hover {
+  transform: scale(1.2);
+
 }
 
 .dark-mode {
@@ -340,16 +348,18 @@ nav.show div.icon-close {
   top: -16.8%;
   left: 16.7%;
   z-index: 0;
+  display: none;
 }
 
 #home .image img {
   position: relative;
-  right: 1rem;
+
 }
 
 #home .image img,
 #home .image::before {
-  border-radius: 0.25rem;
+  border-radius: 2rem;
+  border: 2px solid rgb(17, 150, 0);
 }
 
 #home .text {
